@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-    galleryViewPath: 'http://localhost/echarts-website/examples/${lang}/view.html?c=',
-    galleryEditorPath: 'http://localhost/echarts-website/examples/${lang}/editor.html?c=',
-    handbookPath: 'http://localhost/echarts-website/handbook/${lang}/',
+    galleryViewPath: '/examples/${lang}/view.html?c=',
+    galleryEditorPath: '/examples/${lang}/editor.html?c=',
+    handbookPath: '/handbook/${lang}/',
     websitePath: './',
 
     imagePath: 'asset/img/',
