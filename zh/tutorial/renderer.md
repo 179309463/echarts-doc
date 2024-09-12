@@ -28,7 +28,7 @@ Apache ECharts<sup>TM</sup> 从初始一直使用 Canvas 绘制图表（除了�
 
 ECharts 默认使用 Canvas 渲染。如果想使用 SVG 渲染，ECharts 代码中须包括有 SVG 渲染器模块。
 
-+ ECharts 的 [预构建文件](https://www.jsdelivr.com/package/npm/echarts) 中，[常用版](https://cdn.jsdelivr.net/npm/echarts/dist/echarts.common.min.js) 和 [完整版](https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js) 已经包含了 SVG 渲染器，可直接使用。而 [精简版](https://cdn.jsdelivr.net/npm/echarts/dist/echarts.simple.min.js) 没有包括。
++ ECharts 的 [预构建文件](https://www.jsdelivr.com/package/npm/echarts) 中，[常用版](/vendor-cdn/echarts/dist/echarts.common.min.js) 和 [完整版](/vendor-cdn/echarts/dist/echarts.min.js) 已经包含了 SVG 渲染器，可直接使用。而 [精简版](/vendor-cdn/echarts/dist/echarts.simple.min.js) 没有包括。
 + 如果 [在线自定义构建 ECharts](${websitePath}/zh/builder.html)，则需要勾上页面下方的 “SVG 渲染”。
 + 如果 [线下自定义构建 ECharts](tutorial.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9E%84%E5%BB%BA%20ECharts)，则须引入 SVG 渲染器模块，即：
 

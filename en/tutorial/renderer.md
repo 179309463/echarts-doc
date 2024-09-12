@@ -25,7 +25,7 @@ Therefore [feedback](https://github.com/apache/echarts/issues/new) of experience
 
 ECharts uses Canvas by default. If a user intends to use the SVG renderer, the module of the SVG renderer should be included in ECharts bundle.
 
-+ In the [pre-build](https://www.jsdelivr.com/package/npm/echarts) of ECharts, the SVG renderer has been included in [common version](https://cdn.jsdelivr.net/npm/echarts/dist/echarts.common.min.js) and [complete version](https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js). But not in [simple version](https://cdn.jsdelivr.net/npm/echarts/dist/echarts.simple.min.js).
++ In the [pre-build](https://www.jsdelivr.com/package/npm/echarts) of ECharts, the SVG renderer has been included in [common version](/vendor-cdn/echarts/dist/echarts.common.min.js) and [complete version](/vendor-cdn/echarts/dist/echarts.min.js). But not in [simple version](/vendor-cdn/echarts/dist/echarts.simple.min.js).
 + When [building ECharts online](${websitePath}/en/builder.html), the checkbox "SVG Renderer" should be checked.
 + When [building ECharts offline](tutorial.html#Use%20ECharts%20with%20bundler%20and%20NPM), the SVG renderer module should be imported:
 

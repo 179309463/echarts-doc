@@ -44,14 +44,12 @@ export default {
 
 <style lang="scss">
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
-
 h5.block-header {
     margin: 10px 0 10px 0;
 
     .q-field {
         font-size: 14px;
-        font-family: 'Source Sans Pro', monospace, sans-serif;
+        font-family: monospace, sans-serif;
 
         &.header-level-1 {
             font-size: 24px;

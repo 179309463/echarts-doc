@@ -87,8 +87,8 @@ function fetchECharts() {
     return echartsLoadPromise || (echartsLoadPromise = new Promise(function (resolve, reject) {
         const script = document.createElement('script');
         script.src = store.locale === 'zh'
-            ? 'https://registry.npmmirror.com/echarts/latest/files/dist/echarts.min.js'
-            : 'https://fastly.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js';
+            ? '/vendor-cdn/echarts/latest/files/dist/echarts.min.js'
+            : '/vendor-cdn/echarts@latest/dist/echarts.min.js';
         script.async = true;
         script.onload = function () {
             echartsLoadPromise = null;

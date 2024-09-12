@@ -11770,7 +11770,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ECHARTS_LIB", function() { return ECHARTS_LIB; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROPERTIES_NOT_EXPAND", function() { return PROPERTIES_NOT_EXPAND; });
-var ECHARTS_LIB = 'https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'; // Properties that will not be expanded by default.
+var ECHARTS_LIB = '/vendor-cdn/echarts@5/dist/echarts.min.js'; // Properties that will not be expanded by default.
 // To reduce the display of unnecessary info.
 
 var PROPERTIES_NOT_EXPAND = ['data', 'markPoint', 'markLine', 'markArea', 'tooltip'];
