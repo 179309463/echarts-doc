@@ -16,7 +16,7 @@
                 >{{$t('nav.optionGL')}}</a>
                 <!-- TODO Not use handbook link here?-->
                 <a
-                    :href="`https://echarts.apache.org/handbook/${shared.locale}/get-started`"
+                    :href="`/handbook/${shared.locale}/get-started`"
                     class="handbook-link"
                     target="blank"
                 >{{$t('nav.tutorial')}}</a>
